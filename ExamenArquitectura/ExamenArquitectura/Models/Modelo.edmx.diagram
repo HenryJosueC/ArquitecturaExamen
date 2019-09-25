@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0c6f11a7915841d2849dc40cd616ce47" Name="Diagram1" ZoomLevel="55">
+        <EntityTypeShape EntityType="ColegioModel.Alumno" Width="1.5" PointX="5.25" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColegioModel.Curso" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColegioModel.DetallePago" Width="1.5" PointX="7.5" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColegioModel.Egreso" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColegioModel.Gasto" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColegioModel.Grado" Width="1.5" PointX="3" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColegioModel.Ingreso" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColegioModel.Maestro" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColegioModel.Pago" Width="1.5" PointX="5.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColegioModel.TipoGasto" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="ColegioModel.FkAlumno" ManuallyRouted="false" />
+        <AssociationConnector Association="ColegioModel.GradoFk" ManuallyRouted="false" />
+        <AssociationConnector Association="ColegioModel.FkCurso" ManuallyRouted="false" />
+        <AssociationConnector Association="ColegioModel.FkMaestro" ManuallyRouted="false" />
+        <AssociationConnector Association="ColegioModel.FkPago" ManuallyRouted="false" />
+        <AssociationConnector Association="ColegioModel.Fk_Egreso" ManuallyRouted="false" />
+        <AssociationConnector Association="ColegioModel.FkEgreso" ManuallyRouted="false" />
+        <AssociationConnector Association="ColegioModel.FkTipoGasto" ManuallyRouted="false" />
+        <AssociationConnector Association="ColegioModel.FK_Pago" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
